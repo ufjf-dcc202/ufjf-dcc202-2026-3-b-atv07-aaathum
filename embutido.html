@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        em{
+            font-family: sans-serif;
+        }
+        *{
+            color: blue;
+            /*oi comentario*/
+        }
+        body > main > dl > div:nth-child(1) > dt > code{
+            color: red;
+        }
+        body > main > dl > div:nth-child(2) > dt > code:nth-child(2){
+            color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>css em linha</h1>
+        <p>vc pode aplicar estilo <em><b style="color:red;">EMBUTIDO</b></em> para um elemtno usando o elemento. <code style="color: green; text-decoration:underline;">style</code> no <code>head</code>.</p>
+
+        <dl>
+            <div>
+                <dt><code>color</code></dt>
+                <dd>altera a cor do texto do elemento</dd>
+            </div>
+            <div>
+                <dt><code>background</code><code>-color</code></dt>
+                <dd>cor de fundo do elemento</dd>
+            </div>
+        </dl>
+    </main>
+
+</body>
+</html>
